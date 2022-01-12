@@ -1,0 +1,274 @@
+#latest-Article {
+    width: 100%;
+    height: 470px;
+    margin-top: 73px;
+    background: #ffffff;
+}
+
+.header h1 {
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+/* article-menu */
+.articles-menu {
+    position: relative;
+    top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* science */
+.science {
+    width: 1097px;
+    height: 360px;
+    background: #444;
+    border-radius: 7px;
+}
+
+.science span img {
+    width: 100%;
+    height: 360px;
+    border-radius: 7px;
+   opacity: 0.4;
+}
+
+.science-inner {
+    position: relative;
+    top: -200px;
+    z-index: 2;
+    margin: 0 20px;
+}
+
+.science-inner h1 {
+    position: relative;
+    top: -150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.science-inner p {
+    position: relative;
+    top: -90px;
+    left: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    width: 300px;
+    font-size: 22px;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 1.7rem;
+
+}
+
+.science-inner h2 {
+    position: relative;
+    top: 40px;
+    /* left: 7px; */
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.science-inner span img {
+    position: relative;
+    top: -10px;
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    margin-left: 570px;
+    margin-top: 28px;
+}
+
+/* politics */
+.politics-nenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    left: 12px;
+}
+
+.politics-itms {
+    position: relative;
+    top: -10px;
+    width: 300px;
+    height: 170px;
+    margin: 10px 0;
+    border: #d4d3d3 3px solid;
+    border-radius: 7px;
+}
+
+.politics-itms h1 {
+    position: relative;
+    top: 4px;
+    left: 12px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #888888;
+
+}
+
+.politics-itms p {
+    position: relative;
+    left: 40px;
+    top: 23px;
+    width: 220px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+}
+
+.politics-itms h2 {
+    position: relative;
+    top: 50px;
+    left: 10px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #888888;
+}
+
+.politics-itms span img {
+    position: relative;
+    left: 270px;
+    top: 35px;
+    width: 15px;
+    height: 20px;
+}
+
+
+@media screen and (max-width: 768px) {   
+    #latest-Article {
+      margin-top: 155px;
+      height: 840px;
+    }
+
+    .lastest-content {
+       margin: 0 30px;
+    }
+
+
+    /* science */
+    .science {
+        width: 400px;
+        height: 740px;
+    }
+
+    .science span img {
+        width: 400px;
+        height: 740px;
+       
+    }
+
+    .science-inner h1 {
+       position: relative;
+       top: -500px;
+       font-size: 27px;
+    }
+
+    .science-inner p {
+        position: relative;
+        top: -300px;
+        left: 20px;
+        font-size: 28px;
+        line-height: 2.6rem;
+    }
+
+    .science-inner h2 {
+        position: relative;
+        top: -10px;
+    }
+
+    .science-inner span img {
+        position: relative;
+        left: -224px;
+        top: -412px;
+        background: none;
+        width: 17px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    #latest-Article {
+        height: 1650px;
+        margin-top: 167px;
+    }
+
+    .lastest-content {
+        margin: 0 10px;
+    }
+
+    .header h1  {
+        font-size: 39px;
+    }
+
+    .articles-menu {
+       display: block;
+    }
+
+    .science {
+        width: 348px;
+    }
+
+    .science span img {
+        width: 348px;
+    }
+ 
+    .politics-nenu  {
+        position: relative;
+        left: -2px;
+        top: 40px;
+    }
+
+    .politics-itms {
+        width: 340px;
+    }
+
+    .politics-itms span img {
+        position: relative;
+        left: 300px;
+    }
+
+
+
+
+
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

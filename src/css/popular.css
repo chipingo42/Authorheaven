@@ -1,0 +1,484 @@
+#popular-stories {
+    background: #ffffff;
+    height: 1590px;
+}
+
+.popula-header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #000000;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+/* stories */
+.popular-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* stories-itms */
+.Popular-main {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: -10px;
+    top: 15px;
+}
+
+.popular-itms {
+    width: 300px;
+    height: 170px;
+    border: #d4d3d3 3px solid;
+    border-radius: 7px;
+    margin: 10px 13px;
+}
+
+.popular-itms h1 {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #888888;
+    position: relative;
+    left: 13px;
+    top: 6px;
+}
+
+.popular-itms p {
+    position: relative;
+    top: 20px;
+    left: 40px;
+    width: 220px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+}
+
+.popular-itms h2 {
+    position: relative;
+    top: 58px;
+    left: 10px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #888888;
+}
+
+.popular-itms span img {
+    position: relative;
+    left: 270px;
+    top: 40px;
+    width: 16px;
+    height: 20px;
+}
+
+/* geograhpy */
+.geography {
+    position: relative;
+    top: 27px;
+    left: -10px;
+    width: 1197px;
+    height: 360px;
+    background: #444;
+    border-radius: 7px;
+}
+
+
+.geography {
+    content: '';
+    background: url('../img/abandoned-forest-hd-wallpaper-34950.jpg') no-repeat center center/cover;
+    opacity: 0.6;
+}
+
+.geography-inner {
+    position: relative;
+    z-index: 22;
+}
+
+
+.geography-inner h1 {
+    color: #ffffff;
+    position: relative;
+    top: 6px;
+    left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.geography-inner p {
+    position: relative;
+    top: 70px;
+    left: 70px;
+    color: #ffffff;
+    width: 240px;
+    line-height: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+.geography-inner h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    position: relative;
+    top: 190px;
+    left: 20px;
+    color: #ffffff;
+}
+
+
+/* adventure */
+.adventure {
+    position: relative;
+    top: 60px;
+    left: -70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.adven-content {
+    position: relative;
+    left: 66px;
+    width: 630px;
+    height: 280px;
+    border: 3px solid #d4d3d3;
+    border-radius: 7px;
+    margin: 12px 10px;
+}
+
+.adven-content .one {
+    position: relative;
+    left: -80px;
+}
+
+
+/* .adven-fist */
+.adven-fist {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.adven-fist span img {
+    width: 80%;
+    height: 276px;
+}
+
+.adven-fist .adven-inner {
+    position: relative;
+    left: -40px;
+    top: 7px;
+    color: #888888; 
+}
+
+.adven-fist .adven-inner h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #888888;
+}
+
+.adven-fist .adven-inner p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    /* width: 290px; */
+    font-size: 25px;
+    color: #000000;
+    padding-top: 17px;
+    line-height: 2.0rem;
+}
+
+.adven-fist .adven-inner  h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #888888;
+    padding-top: 5px;
+}
+
+
+/* inner-adventures */
+.inner-adventures {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 80px;
+}
+
+.inner-adven-header {
+    position: relative;
+    /* left: 40px; */
+}
+
+
+.inner-adventures span img {
+    width: 15px;
+    height: 20px;
+    position: relative;
+    left: 30px;
+}
+
+
+/* btn-load */
+.btn-load button {
+    display: inline-block;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    margin-top: 90px;
+    margin-left: 170px;
+    background: #31f0f0;
+    color: #ffffff;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    transition-property: background;
+}
+
+.btn-load button:hover {
+    background: #217773;
+}
+
+
+@media screen and (max-width: 768px) {
+    #popular-stories {
+        height: 4700px;
+    }
+
+    .popula-header h1 {
+        padding-left: 50px;
+        font-size: 40px;
+    }
+
+    /* stories */
+    .popular-menu {
+       margin: 0 27px;
+    }
+
+    /* geograhpy */
+    .geography {
+        position: relative;
+        left: -50px;
+        width: 1300px;
+        height: 740px;
+
+    }
+
+    .geography-inner h1 {
+
+        font-size: 25px;
+    }
+
+    .geography-inner p {
+        position: relative;
+        top: 280px;
+        left: 30px;
+        font-size: 30px;
+        line-height: 2.3rem;
+        width: 300px;
+    }
+
+
+    .geography-inner h2 {
+        position: relative;
+        top: 520px;
+        font-size: 26px;
+    }
+
+        
+    /* adventure */
+    .adventure {
+        position: relative;
+        left: -65px;
+    }
+
+    .adven-content {
+        width: 716px;
+        height: 580px;
+    }
+
+    .adven-fist span img {
+        width: 85%;
+        height: 574px;
+    }
+
+    .adven-fist .adven-inner h1  {
+        font-size: 25px;
+        position: relative;
+        top: 5px;
+    }
+
+    .adven-fist .adven-inner p {
+        position: relative;
+        top: 80px;
+    }
+
+    .adven-fist .adven-inner  h2 {
+        position: relative;
+        top: 90px;
+        font-size: 30px;
+    }
+
+        
+    /* inner-adventures */
+    .inner-adventures {
+        position: relative;
+        top: 300px;
+    }
+    .inner-adventures span img {
+        position: relative;
+        top: 10px;
+       width: 20px;
+       height: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    #popular-stories {
+        height: 4300px;
+    }
+
+    .popula-header h1 {
+        font-size: 39px;
+    }
+
+    .popular-menu {
+        display: block;
+        position: relative;
+        left: -12px;
+    }    
+
+    .popular-itms {
+        width: 340px;
+    }
+
+    .popular-itms span img {
+        position: relative;
+        left: 300px;
+    }
+
+    .geography {
+        position: relative;
+        left: 2px;
+        width: 340px;
+    }
+
+    .adven-content {
+        width: 340px;
+        height: 400px;
+    }
+
+    .adven-fist span img {
+        width: 100%;
+        height: 394px;
+
+    }
+
+    .adven-fist .adven-inner {
+        position: relative;
+        left: 12px;
+    }
+    .adven-fist .adven-inner h1 {
+        font-size: 18px;
+        width: 130px;
+        
+    }
+
+    .adven-fist .adven-inner p {
+        font-size: 18px;
+        width: 100px;
+
+    }
+
+    .adven-fist .adven-inner  h2 {
+        font-size: 18px;
+    }
+
+    .inner-adventures {
+        position: relative;
+        top: 135px;
+    }
+
+    .inner-adventures span img {
+        width: 17px;
+        height: 20px;
+        position: relative;
+        left: -20px;
+        top: 4px;
+        
+    }
+    
+
+    .btn-load button {
+        position: relative;
+        top: -39px;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
